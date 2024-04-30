@@ -2,7 +2,7 @@ import telebot
 from telebot import types
 import requests
 from bs4 import BeautifulSoup
-from telegram.ext import updater
+# from telegram.ext import updater
 
 bot = telebot.TeleBot('5360620791:AAGQSfUeYBt56U1FhjNc6a_3iTpQdOB0HXU')
 HEADERS = {'user-agent':
